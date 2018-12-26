@@ -19,9 +19,9 @@ import java.util.Date;
  */
 
 @Controller
-@RequestMapping("")
+@RequestMapping("/")
 public class IndexController {
-    @GetMapping()
+    @GetMapping
     String index(Model m){
         m.addAttribute("now", new Date());
         m.addAttribute("nama", "Hendi Santika");
