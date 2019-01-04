@@ -10,7 +10,11 @@ Go to your browser :
 
 `http://localhost:8080`
 
-Build a Docker Image
+### Build Spring Boot Image
+
+`mvn clean package`
+
+### Build a Docker Image
 
 Build the Docker image using following commands including the dot.
 
