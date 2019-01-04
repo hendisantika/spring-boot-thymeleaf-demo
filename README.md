@@ -28,6 +28,10 @@ Run the Spring Boot application using this command, mapping your machine’s por
 
 `docker run -p 8080:8080 spring-boot-thymeleaf`
 
+In case if you want to run this image in detached mode
+
+`docker run -d -p 8080:8080 spring-boot-thymeleaf`
+
 Home Page
 
 ![Home Page](img/home.png "Home Page")
